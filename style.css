@@ -8,15 +8,21 @@ body, html, #app {
     margin: 0;
     width: 100%;
     height: 100%;
-    background-image: image('../private/thando3');
-    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(0,0,0,0.5) 200%);
+    background-image: url(img/thando3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+     radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(0,0,0,0.5) 200%);
   }
+
+  
   
   #app {
     position: relative;
     height: 100%;
     font-family: "Montserrat", serif;
-    background-image: image('../private/thando3.jpg');
+    
   }
   
   .hero {
@@ -31,7 +37,7 @@ body, html, #app {
   h1, h2 {
     margin: 0;
     padding: 0;
-    color: black;
+    color: white;
     text-transform: uppercase;
     text-shadow: 0 0 20px rgba(255, 255, 255, 1);
     line-height: 100%;
@@ -48,6 +54,12 @@ body, html, #app {
   h2 {
     font-size: 80px;
     font-weight: 500;
+  }
+.phara{
+    font-size: 50px;
+    font-weight: 400px;
+    margin: 10%;
+    color: aliceblue;
   }
   
   #webgl-canvas {
@@ -173,8 +185,10 @@ body, html, #app {
     font-weight: 500;
     }
     .timeline-content img{
-    padding: 5px;
-    margin: 5px;
+    padding: ;
+    margin: ;
+    width: 100%;
+    background-size:cover;
     }
     .timeline-content p{
     color: white;
